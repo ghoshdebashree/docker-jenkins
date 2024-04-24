@@ -30,13 +30,14 @@
 	</dependencies>
 
 	<build>
+		<finalName>docker-jenkins</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>docker-jenkins</finalName>
+
 	</build>
 
 </project>
