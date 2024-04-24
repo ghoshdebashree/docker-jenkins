@@ -9,4 +9,9 @@ public class Controller {
     public String getMessage(){
         return "Learing Jenkins with Dockeer Integration";
     }
+    @GetMapping("/anotherMessage")
+    public String anotherMessage()
+    {
+        return "Another message";
+    }
 }
